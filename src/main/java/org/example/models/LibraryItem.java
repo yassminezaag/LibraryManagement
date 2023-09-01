@@ -8,12 +8,6 @@ public class LibraryItem {
     private int year;
 
 
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(title, author, year);
-    }
-
     public String getTitle() {
         return title;
     }
